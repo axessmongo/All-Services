@@ -309,9 +309,9 @@ export default function About() {
                                                     <div className="d-flex mt-4 align-items-center justify-content-center">
                                                         <div>
                                                             <div className="icon21 mt-4">
-                                                                <i class="bi bi-person-raised-hand"></i>
+                                                            <i class="bi bi-ev-station"></i>
                                                             </div>
-                                                            <div className="card-body mt-2 pt-3">
+                                                            <div className="card-body mt-2 pt-2">
                                                                 <h5 className="card-title text-capitalize mb-0 heading6">
                                                                     Help & Support
                                                                 </h5>
