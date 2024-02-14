@@ -5,59 +5,66 @@ import carousel3 from '../assets/images/services-carousel3.jpg'
 import carousel4 from '../assets/images/services-carousel4.jpg'
 import carousel5 from '../assets/images/car-carousel.jpg'
 import carousel6 from '../assets/images/home-carousel.jpg'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Banner() {
+    const [active, setActive] = useState(false)
+    AOS.init({
+        // Add your AOS options here
+    });
+
     const [isZoomed, setIsZoomed] = useState(false);
     let gotoTop = (secID) => {
-      const element = document.getElementById(secID);
-      const navbarElement = document.querySelector('.navbar>.container-fluid');
-  
-      if (navbarElement) {
-        var navHeight = navbarElement.clientHeight;
-        // Use navHeight as needed
-      }
-      console.log(element)
-      if (element) {
-        const topPosition = element.getBoundingClientRect().top + window.scrollY;
-        window.scrollTo({ top: topPosition - navHeight, behavior: 'smooth' });
-  
-      }
-  
+        const element = document.getElementById(secID);
+        const navbarElement = document.querySelector('.navbar>.container-fluid');
+
+        if (navbarElement) {
+            var navHeight = navbarElement.clientHeight;
+            // Use navHeight as needed
+        }
+        console.log(element)
+        if (element) {
+            const topPosition = element.getBoundingClientRect().top + window.scrollY;
+            window.scrollTo({ top: topPosition - navHeight, behavior: 'smooth' });
+
+        }
+
     }
     const handleZoom = () => {
-      setIsZoomed(!isZoomed);
+        setIsZoomed(!isZoomed);
     };
-  
+
     gotoTop();
     return (
         <section>
-            <section className=''>
-                <nav class="navbar navbar-expand-lg" id=''>
+            <section className='' id='home'>
+                <nav class="navbar navbar-expand-lg nav-banner" id=''>
                     <div class="container-fluid">
-                        <a class="navbar-brand" href="#">Home<span style={{ color: "#f81f1f ", }}>Services</span></a>
+                        <a class="navbar-brand heading5" href="#" style={{color:"white"}}>Home<span style={{ color: "#f81f1f ", }}>Services</span></a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav ms-auto mb-4  p-4 mb-lg-0 text-center ">
 
-                                <li class="nav-item">
+                                <li class="nav-item heading5">
                                     <a class="nav-link active px-3" aria-current="page" id='name-nav' onClick={() => gotoTop('home')} >Home</a>
                                 </li>
 
-                                <li class="nav-item ">
+                                <li class="nav-item heading5 ">
                                     <a class="nav-link active px-3 " aria-current="page" id='name-nav' onClick={() => gotoTop('about')}>About</a>
                                 </li>
 
-                                <li class="nav-item">
+                                <li class="nav-item heading5">
                                     <a class="nav-link active px-3" aria-current="page" id='name-nav' onClick={() => gotoTop('ourworks')} >Our Works</a>
                                 </li>
 
-                                <li class="nav-item">
-                                    <a class="nav-link active px-3" aria-current="page" id='name-nav' onClick={() => gotoTop('whychooseus')}>Whychoose us</a>
+                                <li class="nav-item heading5">
+                                    <a class="nav-link active px-3" aria-current="page" id='name-nav' onClick={() => gotoTop('Services')}>Services</a>
                                 </li>
 
-                                <li class="nav-item border-end">
+                                <li class="nav-item heading5 border-end">
                                     <a class="nav-link active px-3" aria-current="page" id='name-nav' onClick={() => gotoTop('contact')}>Contact</a>
                                 </li>
                             </ul>
@@ -66,7 +73,7 @@ function Banner() {
                 </nav>
             </section>
 
-            <section className=''>
+            <section className='' >
                 <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">

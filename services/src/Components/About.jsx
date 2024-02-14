@@ -7,10 +7,12 @@ import image1 from '../assets/images/image2.png'
 import fb from '../assets/images/fb.png'
 import insta from '../assets/images/insta.png'
 import whatsapp from '../assets/images/whatsapp.png'
+import Ourworks from './Ourworks'
+import Scroll from './Scroll'
 export default function About() {
     return (
         <>
-            <div className='container'>
+            <div className='container' id='about'>
                 <div className="row">
                     <div className="col-md-6 mt-4 ">
                         <h5 className='heading-title heading7 '>About Us</h5>
@@ -38,7 +40,7 @@ export default function About() {
 
             </div>
             {/* about us */}
-            <section>
+            <section >
                 <div className='mt-4 text-center'>
                     <h5 className='heading-title heading7'>Quality Work Every Time</h5>
                     <p className='heading4 mt-3'>
@@ -71,7 +73,7 @@ export default function About() {
 
 
             {/* Services */}
-            <div className="container">
+            <div className="container" id='ourworks'>
                 <h3 className='heading-title heading7 text-center mt-4'>Our Works</h3>
                 <p className='heading4 mt-3 text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
                 <div className='background-overlay mt-4'>
@@ -175,7 +177,7 @@ export default function About() {
 
             </div>
             {/* Help with you */}
-            <section className='container boxing'>
+            <section className='container boxing' >
                 {/* <h3> what can help with you?</h3> */}
                 <div className="primary-mb">
                     <section className="whatwedo overflow-hidden" id="whatwedo">
@@ -331,21 +333,23 @@ export default function About() {
 
             </section>
             {/* connect */}
+            <Ourworks />
             <footer>
-                <section className=''>
+                <section className='' id='contact'>
                     <div className="connect mt-5">
                         <div className="text-center text-light docdiv ">
-                            <div className="docpara mb-4">
+                            <div className="docpara mb-2">
 
-                                <h5 className='heading-titl heading7 text-center mb-3' style={{ color: "black" }}>All Services Availble at very Low costs!!</h5>
-                                <h4 className='heading-titl heading7 text-center mb-3 ' style={{ color: "black" }}>Be creative, Be effective</h4>
+                                <h5 className='heading-titl heading7 text-center mb-2' style={{ color: "black" }}>All Services Availble at very Low costs!!</h5>
+                                <h4 className='heading-titl heading7 text-center mb-2 ' style={{ color: "black" }}>Be creative, Be effective</h4>
                                 <div className='text-center heading5 mt-3'>
                                     <button className='' >
-                                        <a className=' px-4 py-2 btn1' href='tel:9092570489' target="_blank" style={{ textDecoration: "none", color: "black" }}>Contact Us
+                                        <a className=' py-2 btn1' href='tel:9092570489' target="_blank" style={{ textDecoration: "none", color: "black" }}>Get a Free Quote
                                             <i class="bi bi-arrow-right "></i></a>
                                     </button>
                                 </div>
-                                <div className='text-center mt-2 '>
+
+                                <div className='text-center m-2'>
                                     <a className='#' href='#'>
                                         <img src={insta} alt="" className='img-fluid footer-icons' />
                                         <img src={whatsapp} alt="" className='img-fluid footer-icons' />
@@ -353,7 +357,7 @@ export default function About() {
                                         <img src={fb} alt="" className='img-fluid footer-icons' />
                                         {/* <img src={youtube} alt="" className='img-fluid footer-icons' /> */}
                                     </a>
-                                    <h5 className='text-center heading3 mt-2' style={{ color: "black " }}>Copyrights timezone ©  All rights reserved.</h5>
+                                    <h5 className='text-center heading3 mt-2' style={{ color: "black " }}>Copyrights HomeServices ©  All rights reserved.</h5>
 
                                 </div>
 
@@ -362,6 +366,7 @@ export default function About() {
                     </div>
                 </section>
             </footer>
+            <Scroll />
         </>
     )
 }

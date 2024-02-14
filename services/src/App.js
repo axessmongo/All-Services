@@ -4,8 +4,6 @@ import Banner from './Components/Banner';
 import About from './Components/About';
 
 import '../src/assets/style/works.css'
-import Ourworks from './Components/Ourworks';
-import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -13,8 +11,8 @@ function App() {
       <BrowserRouter>
       <Routes>
         <Route path='/' element={<Banner/>}/>
-        <Route path='/ourworks' element={<Ourworks/>}/>
-        <Route path='/footer' element={<Footer/>}/>
+  
+        
         
 
       </Routes>
