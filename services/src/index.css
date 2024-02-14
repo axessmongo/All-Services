@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading-title {
+    background-color: transparent;
+    background-image: linear-gradient(270deg, var(#10E2EE) 0%, var(#04FFA3) 100%);
+
+}
