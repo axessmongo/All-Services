@@ -46,7 +46,7 @@ function Banner() {
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav ms-auto mb-4  p-4 mb-lg-0 text-center ">
+                            <ul class="navbar-nav ms-auto text-center ">
 
                                 <li class="nav-item heading5">
                                     <a class="nav-link active px-3" aria-current="page" id='name-nav' onClick={() => gotoTop('home')} >Home</a>

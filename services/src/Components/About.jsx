@@ -185,7 +185,7 @@ export default function About() {
                             <div className="position-relative">
                                 <h5 className='heading-title heading7 text-center mt-5'>What Can Help with you? </h5>
 
-                                <div className="row align-items-center justify-content-center">
+                                <div className="row align-items-center justify-content-center g-0">
                                     <div className="col-lg-4 left-sec">
                                         <div data-aos="fade-right" data-aos-duration="400" className='card3 float-end animated-box'>
                                             <div
@@ -249,7 +249,7 @@ export default function About() {
                                         </div>
                                     </div>
 
-                                    <div className="col-lg-4 mt-3 right-sec">
+                                    <div className="col-lg-4 mt-lg-3 right-sec ">
                                         <div data-aos="fade-right" data-aos-duration="400" className='card3 animated-box'>
                                             <div
                                                 className="card2  border-0 mb-5 d-flex  "

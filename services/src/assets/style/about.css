@@ -398,7 +398,7 @@ a {
     right: 15px;
     bottom: 15px;
     z-index: 996;
-    background:red;
+    background: red;
     width: 40px;
     height: 40px;
     border-radius: 50px;
@@ -411,7 +411,7 @@ a {
 
 #name-nav {
     color: linear-gradient(300deg, #07D187 33%, #12C6D0 77%);
-    color:red ;
+    color: white;
     font-size: 21px;
 }
 
@@ -422,13 +422,15 @@ a {
 #home {
     position: fixed;
     width: 100%;
-    top: -35px;
+    top: 0;
+    left: 0;
     text-align: center;
     z-index: 98765;
     color: white;
-    background: rgba(20, 20, 20, 0.466);
+    background: rgb(26 25 25);
 
-  }
+}
+
 .nav-banner {
     position: fixed;
     width: 100%;
@@ -508,4 +510,21 @@ a {
 
 .animated-box:hover::after {
     opacity: 1;
+}
+
+@media (max-width:992px) {
+
+    .left-sec>div,
+    .right-sec>div {
+        float: unset !important;
+        margin: 20px auto !important;
+    }
+
+}
+
+@media (max-width:768px) {
+    .carousel-img {
+        height: 400px;
+    }
+
 }
