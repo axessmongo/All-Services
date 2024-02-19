@@ -14,7 +14,7 @@ export default function About() {
         <>
             <div className='container' id='about'>
                 <div className="row">
-                    <div className="col-md-6 mt-4 ">
+                    <div className="col-md-6 mt-4 " data-aos="fade-up">
                         <h5 className='heading-title heading7 '>About Us</h5>
                         <h4 className='heading7 text-center ' style={{ color: "#ecd5c5" }}>Repairs And Maintenance You Call It</h4>
                         <p className='heading5 mt-4'>Morbi tempus purus vel tellus hendrerit porttitor. Cras blandit odio urna, ac hendrerit turpis dignissim et. In at eros porttitor, blandit ligula id, ornare nibh. Phasellus ut lectus ligula. Fusce pharetra erat lorem, at suscipit leo luctus a. Vivamus ut velit quis arcu eleifend dapibus et et lacus. Sed ac felis et magna vehicula sagittis. Integer efficitur, nibh eu congue bibendum, libero libero mollis leo, ac ornare nisl purus sed orci.</p>
@@ -25,7 +25,7 @@ export default function About() {
                             </button>
                         </div>
                     </div>
-                    <div className="col-md-6  py-5 ">
+                    <div className="col-md-6  py-5 " data-aos="fade-left">
                         <div class="about-warp-image">
                             <img src={carpenter} alt="image" className='img2' />
                             <img src={cleaning} alt="image" className='img3' />
@@ -42,18 +42,18 @@ export default function About() {
             {/* about us */}
             <section >
                 <div className='mt-4 text-center'>
-                    <h5 className='heading-title heading7'>Quality Work Every Time</h5>
-                    <p className='heading4 mt-3'>
+                    <h5 className='heading-title heading7' data-aos="fade-down">Quality Work Every Time</h5>
+                    <p className='heading4 mt-3' data-aos="fade-down">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
                     </p>
                     <div className="container">
                         <div className="row">
-                            <div className="col-md-5 mt-5">
+                            <div className="col-md-5 mt-5" data-aos="flip-down">
                                 <div className="element-with-mask img4">
                                     <img src={sider} alt="" className='img-fluid img4 border border-secondary mask-effect' />
                                 </div>
-                            </div>
-                            <div className="col-md-6">
+                            </div> 
+                            <div className="col-md-6"  data-aos="flip-right">
                                 <div className='icon mt-3'>
                                     <h3 className='heading7' style={{ color: "#ecd5c5" }}>Why Choose Us</h3>
                                     <div className='mt-4 text-center icon1 heading4'>
@@ -77,9 +77,9 @@ export default function About() {
                 <h3 className='heading-title heading7 text-center mt-4'>Our Works</h3>
                 <p className='heading4 mt-3 text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
                 <div className='background-overlay mt-4'>
-                    <div className="row">
+                    <div className="row" >
 
-                        <div class="col-lg-4 col-md-6">
+                        <div class="col-lg-4 col-md-6"  data-aos="fade-right">
 
                             <div class="single-services-item ">
                                 <div class="icon">
@@ -97,7 +97,7 @@ export default function About() {
                                 </a>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6">
+                        <div class="col-lg-4 col-md-6"data-aos="fade-right">
                             <div class="single-services-item">
                                 <div class="icon">
                                     <i class="bi bi-lightbulb"></i>
@@ -112,7 +112,7 @@ export default function About() {
                                     <i class="bi bi-arrow-right"></i>
                                 </a>
                             </div>
-                        </div> <div class="col-lg-4 col-md-6">
+                        </div> <div class="col-lg-4 col-md-6"data-aos="fade-right">
                             <div class="single-services-item">
                                 <div class="icon">
                                     <i class="bi bi-people"></i> </div>
@@ -125,7 +125,7 @@ export default function About() {
                                     <i class="bi bi-arrow-right"></i>
                                 </a>
                             </div>
-                        </div> <div class="col-lg-4 col-md-6">
+                        </div> <div class="col-lg-4 col-md-6"data-aos="fade-left">
                             <div class="single-services-item">
                                 <div class="icon">
                                     <i class="bi bi-paint-bucket"></i>
@@ -140,7 +140,7 @@ export default function About() {
                                     <i class="bi bi-arrow-right"></i>
                                 </a>
                             </div>
-                        </div> <div class="col-lg-4 col-md-6">
+                        </div> <div class="col-lg-4 col-md-6"data-aos="fade-left">
                             <div class="single-services-item">
                                 <div class="icon">
 
@@ -157,7 +157,7 @@ export default function About() {
                                     <i class="bi bi-arrow-right"></i>
                                 </a>
                             </div>
-                        </div> <div class="col-lg-4 col-md-6">
+                        </div> <div class="col-lg-4 col-md-6"data-aos="fade-left">
                             <div class="single-services-item">
                                 <div class="icon">
                                     <i class="bi bi-wrench"></i>

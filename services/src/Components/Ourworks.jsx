@@ -18,7 +18,7 @@ function Ourworks() {
                 <h5 className='heading-title heading7 text-center mb-2 py-3'>Our Services</h5>
                 <h4 className='heading7 text-center ' style={{ color: "#ecd5c5" }}>Fully List of our Services</h4>
 
-                <div className='row pt-3 d-flex justify-content-center'>
+                <div className='row pt-3 d-flex justify-content-center' data-aos="zoom-in">
                     <div className='col-md-2'>
                         <div className='card text-center pt-3'>
                             <div>
@@ -53,7 +53,7 @@ function Ourworks() {
                     </div>
                 </div>
 
-                <div className='row pt-3 d-flex justify-content-center'>
+                <div className='row pt-3 d-flex justify-content-center' data-aos="zoom-out">
                     <div className='col-md-2'>
                         <div className='card text-center pt-3'>
                             <div>
@@ -80,7 +80,7 @@ function Ourworks() {
                     </div>
                 </div>
 
-                <div className='row pt-3 d-flex justify-content-center'>
+                <div className='row pt-3 d-flex justify-content-center'data-aos="zoom-in">
                     <div className='col-md-2'>
                         <div className='card text-center pt-3'>
                             <div>
@@ -99,7 +99,7 @@ function Ourworks() {
                     </div>
                 </div>
 
-                <div className='row pt-3 d-flex justify-content-center'>
+                <div className='row pt-3 d-flex justify-content-center'data-aos="zoom-left">
                     <div className='col-md-2'>
                         <div className='card text-center pt-3'>
                             <div>
