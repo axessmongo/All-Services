@@ -73,6 +73,11 @@ function Banner() {
                 </nav>
             </section>
 
+            <div className='buy-now d-flex justify-content-center align-items-center rounded-2'>
+                <a href="https://axesstechnology.in/contact" target='_blank'>
+                <button className='buy-now-bt'>BuyNow</button></a>
+            </div>
+
             <section className='' >
                 <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
